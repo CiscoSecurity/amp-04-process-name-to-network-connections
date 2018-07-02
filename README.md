@@ -5,7 +5,7 @@ Sample script for searching an environment for computers that have seen a seen a
 ### Usage
 This script reads the API credentials from an api.cfg file, client_id and api_key must be entered there prior to running the script.
 
-To use this script you provide a SHA256 as a command line paramter:
+To use this script you provide a process name as a command line paramter:
 ```
 python process_name_to_network_connections.py powershell.exe
 ```
