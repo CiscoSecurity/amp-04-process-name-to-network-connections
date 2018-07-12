@@ -15,4 +15,4 @@ This script has multiple outputs:
 * Writes a CSV containing connection the IPs, ports, direction, hostname, and GUID
 * Writes a log containing basic information about progress
 
-NOTE: For use in large environments with over 3000 endpoints it is possible to hit the hourly API rate limit and not get a complete list.
+NOTE: This script will process hits from a maximum of 500 endpoints (there is no pagination). If you search for something and it hits on more than 500 endpoints you will not get a complete view of the environment
